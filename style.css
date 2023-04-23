@@ -7,6 +7,22 @@
     --listItem: white;
 }
 
+.Button {
+  display: flex;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #263238;
+  
+  color: white;
+  border-radius: 5px;
+  
+}
+
+.Button:hover{
+  background-color: gray;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -70,7 +86,7 @@ button:active {
 }
 
 .toolbar {
-  width: 60px;
+  width: fit-content;
   height: 150px;
   background-color: black;
   opacity: 80%;
@@ -79,6 +95,7 @@ button:active {
   flex-flow: column;
   justify-content: space-evenly;
   top: 30%;
+  border-radius: 5px;
 }
 
 .panel {
@@ -116,6 +133,8 @@ button:active {
   margin: 5px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 5px;
+  background-color: #262626;
+  color: white;
 }
 
 .bottombar {
