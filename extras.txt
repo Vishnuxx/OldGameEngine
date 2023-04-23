@@ -1,0 +1,38 @@
+{
+  object:{
+
+  },
+
+  material:{
+    type: "MeshPhysicalMaterial",
+    maps:{
+      displacement:{
+        path: "",
+        value: 1
+      }, ...
+    }
+  },
+
+  "scripts": {
+    "events": { 
+        "init": {
+            
+        },
+        "update": {
+            
+        }, 
+        "physics": {
+
+        }, 
+        "lateUpdate": {
+           #runs after running the physics
+        }
+    },
+    "functions":{
+        "function1":{
+            
+        }
+    }
+    
+  }
+}
